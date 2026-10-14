@@ -1,0 +1,243 @@
+{
+  "site": {
+    "name": "Predictive Victory Dynamics Wiki",
+    "shortName": "Predictive Victory Dynamics",
+    "tagline": "Wiki de fãs do evento",
+    "description": "Seu companheiro para o evento Predictive Victory Dynamics de Genshin Impact 7.1 — previsões diárias, calendário de rodadas, mecânicas de apostas com Emblemas da Vitória, recompensas e pontuação.",
+    "legalNotice": "Wiki não oficial de fãs. Sem afiliação com a HoYoverse."
+  },
+  "nav": {
+    "guides": "Guias",
+    "predictions": "Previsões",
+    "rewards": "Recompensas",
+    "tips": "Dicas",
+    "home": "Início",
+    "menu": "Menu",
+    "toggleTheme": "Alternar tema"
+  },
+  "home": {
+    "meta": {
+      "title": "Predictive Victory Dynamics: Guia do evento e picks",
+      "description": "O wiki de Predictive Victory Dynamics — previsões diárias, calendário completo de rodadas, mecânicas de apostas com Emblemas da Vitória, recompensas e pontuação."
+    },
+    "hero": {
+      "eyebrow": "Wiki do evento de Genshin Impact 7.1",
+      "title": "Predictive Victory Dynamics Wiki",
+      "description": "O evento de apostas por tempo limitado do Genshin Impact versão 7.1. Dezesseis equipes, uma chave de eliminação e oito rodadas diárias — aposte seus Emblemas da Vitória em batalhas simuladas, acerte os vencedores e ganhe recompensas que crescem com sua precisão. Este wiki acompanha cada rodada com picks diários, a chave completa, a matemática de pontuação e a estratégia que protege sua banca.",
+      "primaryCta": "Ler o guia do evento",
+      "secondaryCta": "Assistir ao guia",
+      "tertiaryCta": "Todos os guias",
+      "stats": ["Evento limitado 7.1", "Chave de 16 equipes", "Rodadas diárias", "Apostas com Emblemas"]
+    },
+    "updates": {
+      "title": "Acompanhamento de rodadas",
+      "browse": "Ver todos os guias",
+      "viewAll": "Ver tudo"
+    },
+    "start": {
+      "eyebrow": "Vença o evento em quatro passos",
+      "title": "Sua rotina diária de previsão",
+      "cards": [
+        { "number": "1", "title": "Confira o tabuleiro", "description": "Abra o painel do evento, leia os confrontos do dia e anote os resultados de ontem — a forma é a evidência de hoje." },
+        { "number": "2", "title": "Resgate seus Emblemas", "description": "As tarefas diárias alimentam sua banca e expiram a cada reinício — dez segundos, todo dia, sem exceções." },
+        { "number": "3", "title": "Analise e aposte", "description": "Equipes, economia de energia, reações, forma e multidão — aposte na proporção da sua confiança, nunca do seu humor." },
+        { "number": "4", "title": "Assista à resolução", "description": "As simulações são seus dados: cada resolução afia seu modelo para as rodadas finais onde os pagamentos são máximos." }
+      ]
+    },
+    "popular": {
+      "eyebrow": "Mais lidos da semana",
+      "title": "Em alta agora",
+      "quickLinks": ["Previsões", "Recompensas", "Guia", "Estratégia"],
+      "cards": [
+        { "title": "Previsões diárias", "description": "Picks recomendados de cada rodada e o raciocínio por trás de cada palpite — atualizado diariamente até a grande final." },
+        { "title": "Recompensas e metas", "description": "A estrutura completa de prêmios — pagamentos por rodada, níveis de conversão final e os prazos de resgate que pegam os jogadores." },
+        { "title": "Guia do evento", "description": "O que é Predictive Victory Dynamics, como participar, o calendário diário e a economia de Emblemas em uma leitura." },
+        { "title": "Estratégia de apostas", "description": "Por que all-in quase nunca compensa, o sistema de apostas escalonadas e as regras de disciplina que protegem seu recorde." }
+      ]
+    },
+    "aboutGame": {
+      "title": "O que é Predictive Victory Dynamics?",
+      "paragraphs": [
+        "Predictive Victory Dynamics é o evento de apostas por tempo limitado do Genshin Impact versão 7.1 da HoYoverse — dezesseis equipes pré-montadas entram numa chave de eliminação disputada em oito rodadas diárias de batalhas simuladas. Você nunca controla os combatentes: seu jogo é prever, apostando Emblemas da Vitória no vencedor de cada partida antes da simulação se resolver, com recompensas que escalam com sua precisão.",
+        "Este wiki é o companheiro de fãs do evento: previsões diárias com raciocínio, a chave completa e perfis das equipes, as mecânicas de apostas, o sistema de pontuação e pagamentos, a lista completa de recompensas e a estratégia de banca que amarra tudo. Não precisa de poder de conta — habilidade de previsão é a única moeda."
+      ],
+      "stats": [
+        { "label": "Jogo", "value": "Genshin Impact" },
+        { "label": "Versão", "value": "7.1" },
+        { "label": "Desenvolvedora", "value": "HoYoverse" },
+        { "label": "Equipes", "value": "16" },
+        { "label": "Rodadas", "value": "8 diárias" },
+        { "label": "Moeda", "value": "Emblemas da Vitória" }
+      ],
+      "cta": "Explorar todos os guias"
+    },
+    "explore": {
+      "title": "Todo o evento, mapeado",
+      "description": "Previsões, mecânicas, recompensas e estratégia — o kit completo.",
+      "modules": [
+        {
+          "order": 1,
+          "name": "Previsões diárias",
+          "description": "Calendário de rodadas e picks recomendados, diariamente.",
+          "href": "/predictions/daily-predictions-schedule",
+          "displayType": "code-cards",
+          "highlights": [
+            { "label": "Rodadas 7-8", "detail": "Semifinais e grande final — os tabuleiros de maior pagamento", "badge": "Ao vivo" }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Guia do evento",
+          "description": "Todo o evento em uma leitura.",
+          "href": "/guide/predictive-victory-dynamics-guide",
+          "displayType": "step-by-step",
+          "highlights": [
+            { "label": "1", "detail": "Participe — AR 20, sem montar equipes" },
+            { "label": "2", "detail": "Rotina diária: anúncio, análise, aposta, resolução" },
+            { "label": "3", "detail": "Resgate as recompensas finais um dia após a final" }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Mecânicas de apostas",
+          "description": "Como funcionam previsões e odds.",
+          "href": "/guide/predictive-victory-dynamics-how-to-predict",
+          "displayType": "step-by-step",
+          "highlights": [
+            { "label": "1", "detail": "Auditoria de elenco — carregadores e baterias acima de nomes" },
+            { "label": "2", "detail": "Economia de energia — frequência de ultys vence" },
+            { "label": "3", "detail": "Leitura da multidão — onde o dinheiro alheio exagera" }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "Chave de 16",
+          "description": "As dezesseis equipes perfiladas.",
+          "href": "/predictions/round-of-16-teams",
+          "displayType": "tier-grid",
+          "highlights": [
+            { "label": "S", "detail": "Atrição — sustentação e ER vencem a luta longa" },
+            { "label": "A", "detail": "Híbridas — ritmo adaptável, as sobreviventes" },
+            { "label": "B", "detail": "Tempo — dominam ou colapsam pelo relógio" },
+            { "label": "C", "detail": "Gimmicks — nenhuma sobreviveu às quartas" }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "Lista de recompensas",
+          "description": "Cada prêmio e como resgatar.",
+          "href": "/rewards/predictive-victory-dynamics-rewards",
+          "displayType": "card-list",
+          "highlights": [
+            { "label": "💎", "detail": "Gemas — os níveis altos pagam bem" },
+            { "label": "🏆", "detail": "Conversão final — total de Emblemas e precisão" },
+            { "label": "⏰", "detail": "Prazos — o diário expira, o final expira com o painel" }
+          ]
+        },
+        {
+          "order": 6,
+          "name": "Sistema de pontuação",
+          "description": "A matemática por trás dos níveis.",
+          "href": "/rewards/scoring-payout-system",
+          "displayType": "card-list",
+          "highlights": [
+            { "label": "⚖", "detail": "Duas alavancas — banca e recorde de precisão" },
+            { "label": "🔥", "detail": "Bônus de sequência — consistência paga prêmio" },
+            { "label": "🎯", "detail": "Níveis cegos à aposta — precisão comanda" }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Checklist diário",
+          "description": "Cada tarefa que não dá para perder.",
+          "href": "/tips/missable-checklist",
+          "displayType": "step-by-step",
+          "highlights": [
+            { "label": "1", "detail": "Abra o painel, leia o tabuleiro, anote a forma" },
+            { "label": "2", "detail": "Resgate o diário — o prêmio mais esquecido" },
+            { "label": "3", "detail": "Aposte, assista a uma resolução, confira seu posto" }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Estratégia de banca",
+          "description": "Disciplina que vence.",
+          "href": "/tips/betting-strategy",
+          "displayType": "card-list",
+          "highlights": [
+            { "label": "🃏", "detail": "All-in — quase sempre errado, um caso defensável" },
+            { "label": "📏", "detail": "Apostas escalonadas — aposte o que sua evidência sustenta" },
+            { "label": "🛡", "detail": "Regra de reserva — chegue à final podendo jogá-la" }
+          ]
+        }
+      ]
+    },
+    "faq": {
+      "title": "Perguntas frequentes",
+      "description": "Respostas rápidas às dúvidas mais comuns sobre o evento.",
+      "items": [
+        { "question": "O que é Predictive Victory Dynamics?", "answer": "O evento de apostas por tempo limitado do Genshin Impact 7.1 — dezesseis equipes disputam uma chave de eliminação em oito rodadas diárias de batalhas simuladas, e você aposta Emblemas da Vitória no vencedor de cada partida por recompensas que escalam com sua precisão." },
+        { "question": "É grátis?", "answer": "Sim — o evento é totalmente dentro do jogo e grátis. Emblemas da Vitória são moeda de evento sem compra com dinheiro real, e não precisa montar equipes: os dezesseis elencos são fixos, só importa sua habilidade de previsão." },
+        { "question": "E se eu perder um dia?", "answer": "Os pagamentos de previsões e as tarefas diárias daquele dia são perdidos para sempre — a chave segue sem você e não há janela retroativa. Retome no dia seguinte; as rodadas finais ainda pagam o mais alto." },
+        { "question": "Como funcionam as recompensas?", "answer": "Dois caminhos: pagamentos por rodada que liquidam automaticamente após cada resolução diária, e uma conversão final que transforma seu total de Emblemas e recorde de precisão em recompensas por níveis — Gemas, Mora e materiais — que devem ser resgatadas antes do fechamento." }
+      ]
+    },
+    "finalCta": {
+      "title": "Pronto para acertar a chave?",
+      "description": "Picks diários, a chave completa, a matemática de pontuação e a estratégia de banca — tudo da primeira previsão à grande final.",
+      "primary": "Ler o guia do evento",
+      "secondary": "Jogar Genshin Impact"
+    }
+  },
+  "shared": {
+    "wikiNavigation": "Navegação do wiki",
+    "activeCodes": "Acompanhamento de rodadas",
+    "updated": "Atualizado",
+    "viewAllCodes": "Ver todos os guias",
+    "inThisSection": "Nesta seção",
+    "tableOfContents": "Índice",
+    "nextSteps": "Próximos passos",
+    "needHelp": "Precisa de ajuda?",
+    "relatedReading": "Leituras relacionadas",
+    "relatedGuides": "Guias relacionados",
+    "readMore": "Ler mais",
+    "officialMedia": "Mídia oficial",
+    "home": "Início",
+    "noGuidesAvailable": "Ainda não há guias. Volte em breve!"
+  },
+  "footer": {
+    "aboutTitle": "Predictive Victory Dynamics Wiki",
+    "about": "Predictive Victory Dynamics Wiki é um wiki independente de fãs sobre o evento Predictive Victory Dynamics de Genshin Impact 7.1 — previsões diárias, calendário, mecânicas de apostas, recompensas, pontuação e estratégia.",
+    "quickLinks": "Links rápidos",
+    "guides": "Guias",
+    "legal": "Jurídico",
+    "copyright": "2026 Predictive Victory Dynamics Wiki. Sem afiliação com a HoYoverse. Genshin Impact e todas as marcas relacionadas são propriedade da HoYoverse.",
+    "description": "O wiki de Predictive Victory Dynamics — previsões, recompensas, pontuação e estratégia do evento 7.1.",
+    "playGame": "Jogar Genshin Impact",
+    "officialDiscord": "Comunidade",
+    "officialYoutube": "Site oficial",
+    "epicStore": "HoYoverse",
+    "beginnerGuide": "Guia do evento",
+    "mapGuides": "Previsões diárias",
+    "weaponsGuides": "Lista de recompensas",
+    "buildGuide": "Estratégia de apostas",
+    "privacyPolicy": "Política de privacidade",
+    "termsOfService": "Termos de serviço"
+  },
+  "guide": {
+    "overviewTitle": "Guias do evento",
+    "overviewDescription": "Todos os guias de Predictive Victory Dynamics — o evento explicado em uma leitura e as mecânicas de apostas desmontadas por completo."
+  },
+  "predictions": {
+    "overviewTitle": "Previsões diárias",
+    "overviewDescription": "Previsões rodada a rodada de Predictive Victory Dynamics — calendário ao vivo, picks recomendados e a chave completa de 16."
+  },
+  "rewards": {
+    "overviewTitle": "Recompensas e pontuação",
+    "overviewDescription": "A estrutura completa de prêmios — pagamentos por rodada, níveis de conversão final e a matemática que decide sua colocação."
+  },
+  "tips": {
+    "overviewTitle": "Dicas do evento",
+    "overviewDescription": "O checklist diário que garante cada tarefa e a estratégia que protege seu recorde de precisão."
+  }
+}

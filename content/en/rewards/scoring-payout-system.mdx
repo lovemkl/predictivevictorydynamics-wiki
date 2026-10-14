@@ -1,0 +1,57 @@
+export const metadata = {
+  title: "Predictive Victory Dynamics Scoring & Payout System Explained",
+  description: "How Predictive Victory Dynamics scores your predictions — stake math, accuracy weighting, streak bonuses and the tier thresholds that decide your final rewards.",
+  category: "rewards",
+  date: "2026-10-15",
+  badge: "Scoring",
+};
+
+Every reward you earn in Predictive Victory Dynamics traces back to one scoring system, and it rewards two different things at once: how much you risked on the calls you got right, and how consistently you got them right. Players who understand both levers — and how the system trades them off against each other — consistently out-earn players who optimize only one. This guide dismantles the scoring math: how a single match is scored, how the accuracy record is calculated, how streaks factor in, and where the tier thresholds sit.
+
+## How a Single Match Is Scored
+
+Each prediction resolves as a straightforward wager. Your stake multiplies by the match odds if your call is correct and returns nothing if it is not. Two properties of this math deserve attention:
+
+**Payouts are linear in stake.** Doubling your stake doubles your win and doubles your loss. There is no bonus for staking big beyond the raw multiplication — which means stake sizing is purely a risk-management decision, not a scoring play. The system does not reward courage; it rewards correctness, and lets you choose how much correctness is worth.
+
+**Odds encode expected probability.** The payout ratio on each side reflects the event's expectation of the simulation, so an underdog win pays disproportionately. Every round of Predictive Victory Dynamics therefore contains two games: predicting outcomes, and pricing your confidence against the market the odds imply. A correct favorite call and a correct underdog call at the same stake can differ substantially in payout — value betting is real, and it lives in the gap between your read and the line.
+
+## The Accuracy Record
+
+Alongside your Emblem bankroll, the event maintains an accuracy record: your correct calls measured against your total placed predictions. This record is not cosmetic. It feeds the final conversion tiers, and its weighting has a deliberate shape — consistency beats spikes.
+
+The practical consequence: a player who goes seven-of-eight with modest stakes will typically out-tier a player who went four-of-eight but landed two huge underdogs, even if the latter's bankroll is larger. The system is engineered so that prediction quality, not wagering volume, anchors the headline rewards. Aggressive bettors still profit through the bankroll lever, but the accuracy lever pays a premium that stakes cannot buy.
+
+## Streak and Consistency Bonuses
+
+The scoring system layers bonuses on sustained correctness. Winning runs of predictions across consecutive rounds build multipliers on the per-round payouts — the event explicitly pays for not breaking form. Two implications:
+
+**Streaks change correct stake sizing.** When you are on a run, the expected value of your next placed bet is boosted by the streak bonus, which marginally justifies larger stakes on boards you would otherwise bet conservatively. This is the one place the system genuinely rewards aggression.
+
+**Streaks punish recklessness at the wrong time.** A forced low-confidence bet mid-streak risks both the stake and the multiplier base. The disciplined play — protecting a live streak with only your highest-confidence calls — is frequently worth more than squeezing one extra match onto the board.
+
+## Tier Thresholds and What They Mean
+
+The final conversion reads your combined performance — bankroll plus accuracy record — against tier thresholds. The published structure runs from a guaranteed participation floor to top-percentile tiers, with each step upgrading every reward category simultaneously. While the exact thresholds are tuned to the event's final field size, the strategic shape is stable:
+
+- **The participation floor** requires only playing through the rounds — every player who makes their daily check-in exits with something.
+- **The mid tiers** reward a positive accuracy record; hit meaningfully above the community average and you land here even with conservative bankroll play.
+- **The top tiers** require both levers working: sustained accuracy across rounds and a bankroll that pressed it. This is where the event's full Primogem ceiling and largest material bundles live.
+
+Track your standing in the in-event interface — it shows your hit rate against the field, which is the cleanest live signal of which tier trajectory you are on.
+
+## The Scoring System's One Big Lesson
+
+Strip the math down and Predictive Victory Dynamics rewards one behavior above all: **betting only when you have an edge, sized to the size of the edge.** The accuracy weighting punishes volume for its own sake, the streak bonuses punish breaking form on coin-flips, and the linear payout math means your stake should be a pure expression of confidence. Every system feature points the same direction — fewer, better-reasoned, correctly-sized bets.
+
+## FAQ
+
+**Does a wrong prediction hurt my accuracy record even at minimum stake?** Yes — the accuracy record counts predictions, not stakes. This is exactly why the strategy guides recommend minimum stakes on coin-flips you choose to play: the bankroll exposure is trivial, but the accuracy cost of a miss is identical to a maximum-stake miss. Bet small on uncertainty or skip entirely.
+
+**Can I see my live accuracy ranking?** The event interface shows your hit rate against the community average, which is the practical tier signal. Treat leaderboard percentile as directional rather than exact until final conversion.
+
+**Do streak bonuses apply per-match or per-round?** Per-round — consecutive rounds with at least one correct call extend the streak. Within a round, multiple matches settle together, so a round where you split your calls can still extend a streak.
+
+**Is it ever correct to bet against my own analysis?** Only in one case: when you believe the crowd's movement reflects information you lack. Even then, the system's structure — accuracy-weighted tiers — says to size such bets at the minimum. Your model, your record.
+
+The scoring system is the event's silent rulebook. Bet with it and every mechanic quietly works for you; bet against it and every mechanic quietly bleeds you. The remaining pages of this wiki — picks, bracket, strategy — are all downstream of respecting it.

@@ -1,0 +1,79 @@
+export const metadata = {
+  title: "How to Predict Winners in Predictive Victory Dynamics: Betting Mechanics",
+  description: "The wagering mechanics of Predictive Victory Dynamics explained — how Victory Emblems, odds and prediction windows work, and the read-the-match method that finds the real favorite.",
+  category: "guide",
+  date: "2026-10-15",
+  badge: "Mechanics",
+};
+
+Placing a bet in Predictive Victory Dynamics takes three taps. Choosing a bet that actually pays is the entire skill ceiling of the event. This guide breaks the wagering mechanics down to the bolts — how Victory Emblems move, what the odds numbers mean, how the prediction window behaves — and then builds the analytical method that separates players who read the bracket from players who donate their Emblems to it.
+
+## The Wagering Loop in Detail
+
+Every match in Predictive Victory Dynamics presents you with two teams and a prediction interface. You select a winner, choose how many Victory Emblems to stake, and confirm. The stake leaves your bank immediately. When the simulation resolves, a correct call returns your stake plus winnings at the listed odds, while an incorrect call returns nothing. There is no hedging mechanic, no cash-out-early option and no way to split a single stake across both sides — each match is a straight pick.
+
+The prediction window is generous but hard. It opens when the day's matches are announced and closes when the first simulation begins. Inside that window you can place, revise or cancel freely; the moment it closes, every placed stake locks. Treat the closing bell as a real deadline: a perfectly reasoned pick placed thirty seconds late earns exactly nothing.
+
+## Reading the Odds
+
+Each matchup displays payout odds that reflect how the simulations are expected to go — and learning to read them is the fastest upgrade a new predictor can make. The structure is simple: the team the event expects to lose pays more per Emblem, and the team the event expects to win pays less. When you see a lopsided pair of numbers, the event is telling you the community consensus and the simulation balance both lean heavily one way.
+
+The mistake most players make is treating the favorite as a free win. Accumulator-style thinking — "I will just ride favorites all event" — produces a slow bleed, because even heavy favorites lose occasionally in auto-resolved simulations, and when a favorite fails, the players who paid premium stakes on underdogs that day collect the round. The odds are information about probability, not a promise about outcome, and the healthiest mental model is that every Predictive Victory Dynamics match is a coin weighted somewhere between 55/45 and 80/20 — never 100/0.
+
+## The Information You Get Before Each Match
+
+Predictive Victory Dynamics is generous with pre-match data, and using all of it is what turns betting into analysis. For every match you can inspect:
+
+**Full team rosters.** Both sides' characters, their equipped weapons and their artifact sets are visible before you bet. This is the single richest source of edge — the analysis below explains what to look for.
+
+**Elemental composition.** The reaction profile of each team tells you how the fight's damage will actually flow. A team of four off-element carries that never triggers reactions tends to lose to a modestly-built team that chains Vaporize or Quicken windows efficiently.
+
+**Prior round results.** Once the bracket progresses past the first group, you have real resolve data — which teams overperformed, which scraped through, which won on a fluke of AI targeting. Past performance is imperfect evidence, but it is evidence.
+
+**Community sentiment.** The in-event prediction percentages show where other players are putting their Emblems. Crowd psychology has value twice: a massive public favorite that you independently agree with is a safe home for a big stake; a heavy public favorite that your analysis disagrees with is the single most profitable betting opportunity the event offers.
+
+## How to Actually Analyze a Matchup
+
+Work through the rosters in this order and you will out-read most of the lobby within a few rounds.
+
+**Step 1: Count the damage sources.** Identify who on each team is actually dealing damage versus who is enabling. A team whose supports are over-invested relative to its carries wins slowly or not at all; a team with two functional carries and modest support usually out-damages a stacked roster with a weak battery.
+
+**Step 2: Check the energy economy.** In auto-battle simulations, Energy Recharge determines burst frequency, and burst frequency determines everything. A team that ults on cooldown steamrolls a team that fields bigger numbers but slower batteries. Look at how the artifact sets and weapons distribute ER across the roster.
+
+**Step 3: Map the elemental reactions.** Determine which side owns the reaction tempo. If one team's composition sets up recurring reactions (Vaporize, Melt, Quicken chains) while the other relies on raw multipliers, the reaction team wins the long fight even with visibly lower attack stats.
+
+**Step 4: Assess survivability and healing.** Simulations run to resolution, not to a timer. Sustained healing and shielding drag fights long, and long fights favor the team with better energy economy and reaction uptime — the two factors you scored in the previous steps.
+
+**Step 5: Weight the intangibles.** AI target selection is the chaos variable. Ranged-heavy teams sometimes kite favorably; burst teams sometimes waste openings on shields. This layer only comes from watching resolves, which is why your prediction quality should improve as the event progresses — you are not just betting, you are building a model of how the simulation AI behaves.
+
+## Bankroll Mechanics: Stake Sizing
+
+Because payouts scale linearly with your stake, stake sizing is where analytical edge becomes actual Emblem growth. The mechanics reward a simple discipline: stake in proportion to your confidence. Locks — matchups where your analysis and the odds and the community all agree — can carry large stakes. Coin-flips where you have no read deserve minimum stakes or a pass. And the one rule that protects your whole event: never stake so much on a single match that a loss cripples your ability to bet the remaining rounds. The full framework, including when an all-in is actually defensible, is covered in the betting strategy guide.
+
+## The Five Classic Betting Mistakes
+
+Round after round of Predictive Victory Dynamics, the same five errors recycle the community's Emblems. Learn them before you place your next wager:
+
+**Betting the name instead of the roster.** Star characters attract public money regardless of how the team around them is built. The roster is the unit of analysis — a famous carry with no battery and no sustain is a liability the odds have not priced.
+
+**Ignoring the energy curve.** The single most predictive stat on the pre-match screen is Energy Recharge distribution. Teams that burst on cooldown win auto-resolved fights; teams that wait for energy die waiting. When in doubt, count ER across both rosters before anything else.
+
+**Chasing yesterday's result.** A team that dominated last round is not automatically dominant this round — archetypes change across the bracket, and a tempo team that feasted on a passive opponent may meet an attrition wall next. Form is evidence, not destiny; re-run the full read on every new matchup.
+
+**Treating the crowd percentage as analysis.** The public share tells you where Emblems are going, not where the simulation is going. Use it as a sentiment signal and a value detector — nothing more. When Predictive Victory Dynamics players copy the majority blindly, the majority's losses compound across the whole lobby.
+
+**Staking out of proportion.** Big stakes belong on high-confidence boards only. The correct stake on a lean is small, and the correct stake on no-read is minimum or nothing — protecting your accuracy record matters more than any single round's payout.
+
+Avoid these five and you are already ahead of most of the field before the first simulation of the day resolves.
+
+## FAQ
+
+**Do odds change after I place my bet?** Your payout locks at the odds displayed when your stake was placed. Later line movement does not affect bets already confirmed — which cuts both ways, so if you like a number, take it.
+
+**Is there a limit on how many Emblems I can stake per match?** Each match enforces a stake cap, raised as the event progresses into later rounds. The cap exists to keep single-match variance from deciding the whole event, and it is also the game's quiet hint that diversifying across matches beats doubling down on one.
+
+**What is the best single indicator for a beginner?** Energy Recharge distribution across the roster. It is the one stat that a new predictor can read directly off the pre-match screen and that correlates strongly with simulation outcomes — burst frequency wins auto-battles.
+
+**Should I bet every match every day?** Only if you have a read on every match. Forced bets on matchups you did not analyze are the most common Emblem leak in Predictive Victory Dynamics — a minimum stake on a true coin-flip is fine, but betting big to "feel involved" is how bankrolls die.
+
+Mechanics understood, the remaining edge is information. The daily predictions page applies this exact method to every round's matchups, and the bracket guide tracks how the sixteen teams actually profile once the simulations start resolving.

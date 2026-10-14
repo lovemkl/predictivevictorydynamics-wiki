@@ -1,0 +1,18 @@
+# Predictive Victory Dynamics Wiki
+
+> Your companion for the Genshin Impact 7.1 event Predictive Victory Dynamics — daily predictions, the round schedule, Victory Emblem betting mechanics, rewards and scoring.
+
+Site: https://predictivevictorydynamics.wiki
+
+## About
+Your companion for the Genshin Impact 7.1 event Predictive Victory Dynamics — daily predictions, the round schedule, Victory Emblem betting mechanics, rewards and scoring.
+
+## Guides
+- [Predictive Victory Dynamics Guide: Genshin Impact 7.1 Event Explained](https://predictivevictorydynamics.wiki/guide/predictive-victory-dynamics-guide): The complete Predictive Victory Dynamics guide — how the Genshin Impact 7.1 betting event works, daily rounds, Victory Emblems, rewards and how to join before it ends.
+- [How to Predict Winners in Predictive Victory Dynamics: Betting Mechanics](https://predictivevictorydynamics.wiki/guide/predictive-victory-dynamics-how-to-predict): The wagering mechanics of Predictive Victory Dynamics explained — how Victory Emblems, odds and prediction windows work, and the read-the-match method that finds the real favorite.
+- [Predictive Victory Dynamics Daily Predictions & Round Schedule](https://predictivevictorydynamics.wiki/predictions/daily-predictions-schedule): Every round of Predictive Victory Dynamics tracked daily — the full schedule, our recommended picks for the current matchups and the reasoning behind each call.
+- [Round of 16 Teams & Bracket: Every Matchup Profiled](https://predictivevictorydynamics.wiki/predictions/round-of-16-teams): The full Predictive Victory Dynamics bracket — all sixteen teams profiled, group results tracked and quarterfinal form lines explained.
+- [Predictive Victory Dynamics Rewards: Full Prize List & Claim Guide](https://predictivevictorydynamics.wiki/rewards/predictive-victory-dynamics-rewards): Every reward in Predictive Victory Dynamics — per-round payouts, final conversion rewards, milestone targets and exactly when and how to claim.
+- [Predictive Victory Dynamics Scoring & Payout System Explained](https://predictivevictorydynamics.wiki/rewards/scoring-payout-system): How Predictive Victory Dynamics scores your predictions — stake math, accuracy weighting, streak bonuses and tier thresholds.
+- [Predictive Victory Dynamics Daily Checklist: Every Missable Task](https://predictivevictorydynamics.wiki/tips/missable-checklist): The complete daily checklist for Predictive Victory Dynamics — every missable task, every expiring reward and the five-minute routine.
+- [Predictive Victory Dynamics Betting Strategy: All In vs Safe Bets](https://predictivevictorydynamics.wiki/tips/betting-strategy): The bankroll strategy for Predictive Victory Dynamics — when all-in is defensible, how scaled staking works and the discipline rules.
